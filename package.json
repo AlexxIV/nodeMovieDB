@@ -1,0 +1,30 @@
+{
+  "name": "nodemoviedb",
+  "version": "0.0.1",
+  "description": "A simple movie DB app",
+  "main": "app.js",
+  "scripts": {
+    "gulp": "gulp",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexxIV/nodeMovieDB.git"
+  },
+  "author": "A.I.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexxIV/nodeMovieDB/issues"
+  },
+  "homepage": "https://github.com/AlexxIV/nodeMovieDB#readme",
+  "dependencies": {
+    "formidable": "^1.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-rename": "^1.2.3"
+  }
+}
